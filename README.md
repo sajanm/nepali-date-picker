@@ -19,21 +19,21 @@ You can test out the code, and generate javascript code snippets here:
 $ npm install @sajanm/nepali-date-picker
 ```
 
-Include nepali.datepicker.v4.0.3.min.js
+Include nepali.datepicker.v4.0.4.min.js
 
 ```
 /* Use online reference */
-<script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/js/nepali.datepicker.v4.0.3.min.js" type="text/javascript"></script>
+<script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.4.min.js" type="text/javascript"></script>
 
 /* or local */
 <script src="/path/to/local/nepali.datepicker.min.js" type="text/javascript"></script>
 ```
 
-Include nepali.datepicker.v4.0.3min.css
+Include nepali.datepicker.v4.0.4min.css
 
 ```
 /* Use online reference */
-<link href="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/css/nepali.datepicker.v4.0.3.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.4.min.css" rel="stylesheet" type="text/css"/>
 
 /* or local */
 <link href="/path/to/local/nepali.datepicker.min.css" rel="stylesheet" type="text/css"/>
@@ -54,19 +54,19 @@ mainInput.nepaliDatePicker();
 ```
 <html lang="en">
     <head>
-        <title>Nepali Datepicker v4.0.3</title>
+        <title>Nepali Datepicker v4.0.4</title>
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
         <!-- Nepali Datepicker -->
-        <link href="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/css/nepali.datepicker.v4.0.3.min.css" rel="stylesheet" type="text/css"/>
+        <link href="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.4.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <p>
             <input type="text" id="nepali-datepicker" placeholder="Select Nepali Date"/>
         </p>
 
-        <script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/js/nepali.datepicker.v4.0.3.min.js" type="text/javascript"></script>
+        <script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.4.min.js" type="text/javascript"></script>
         <script type="text/javascript">
             window.onload = function() {
                 var mainInput = document.getElementById("nepali-datepicker");
@@ -119,7 +119,7 @@ Availabe NepaliFunctions ([View the full documentation](https://nepalifunctions.
 ## Example
 
 ```
-<script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/js/nepali.datepicker.v4.0.3.min.js" type="text/javascript"></script>
+<script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/js/nepali.datepicker.v4.0.4.min.js" type="text/javascript"></script>
 <script type="text/javascript">
     console.log(NepaliFunctions.GetCurrentBsDate());
 </script>
