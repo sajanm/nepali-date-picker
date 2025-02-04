@@ -19,21 +19,21 @@ You can test out the code, and generate javascript code snippets here:
 $ npm install @sajanm/nepali-date-picker
 ```
 
-Include nepali.datepicker.v4.0.4.min.js
+Include nepali.datepicker.v4.0.6.min.js
 
 ```
 /* Use online reference */
-<script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.4.min.js" type="text/javascript"></script>
+<script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.6.min.js" type="text/javascript"></script>
 
 /* or local */
 <script src="/path/to/local/nepali.datepicker.min.js" type="text/javascript"></script>
 ```
 
-Include nepali.datepicker.v4.0.4min.css
+Include nepali.datepicker.v4.0.6min.css
 
 ```
 /* Use online reference */
-<link href="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.4.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.6.min.css" rel="stylesheet" type="text/css"/>
 
 /* or local */
 <link href="/path/to/local/nepali.datepicker.min.css" rel="stylesheet" type="text/css"/>
@@ -54,19 +54,19 @@ mainInput.nepaliDatePicker();
 ```
 <html lang="en">
     <head>
-        <title>Nepali Datepicker v4.0.4</title>
+        <title>Nepali Datepicker v4.0.6</title>
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
         <!-- Nepali Datepicker -->
-        <link href="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.4.min.css" rel="stylesheet" type="text/css"/>
+        <link href="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.6.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <p>
             <input type="text" id="nepali-datepicker" placeholder="Select Nepali Date"/>
         </p>
 
-        <script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.4.min.js" type="text/javascript"></script>
+        <script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/nepali.datepicker.v4.0.6.min.js" type="text/javascript"></script>
         <script type="text/javascript">
             window.onload = function() {
                 var mainInput = document.getElementById("nepali-datepicker");
@@ -83,43 +83,61 @@ The nepali.datepicker is built upon nepali.functions, so all the functions avail
 
 Availabe NepaliFunctions ([View the full documentation](https://nepalifunctions.sajanmaharjan.com.np/documentation/index.html))
 
--   ConvertToDateObject: Convert date string to object
--   ConvertDateFormat: Convert date object to string
--   AD2BS: Convert AD to BS
--   BS2AD: Convert BS to AD
--   ValidateBsDate: Validate if the given BS date is valid
--   GetCurrentAdDate: Gets the Current AD Date
--   GetCurrentAdYear: Gets the Current AD Year
--   GetCurrentAdMonth: Gets the Current AD Month
--   GetCurrentAdDay: Gets the Current AD Day
--   GetCurrentBsDate: Gets the Current BS Date
--   GetCurrentBsYear: Gets the Current BS Year
--   GetCurrentBsMonth: Get the Current BS Month
--   GetCurrentBsDay: Gets the Current BS Day
--   GetAdMonths: Get AD Month List
--   GetAdMonth: Get AD Month
--   GetBsMonths: Get BS Month List
--   GetBsMonth: Get BS Month
--   GetBsDays: Get BS Day List
--   GetBsDay: Get BS Day
--   GetBsDaysUnicodeShort: Get BS Day List in Short
--   GetAdDays: Get AD Day List
--   GetAdDay: Get AD Day
--   GetBsMonthsInUnicode: Get BS Month List In Nepali
--   GetBsMonthInUnicode: Get BS Month In Nepali
--   GetDaysInAdMonth: Get Days in the given AD Month
--   GetDaysInBsMonth: Get Days in the given BS Month
--   AdDatesDiff: Difference between two AD dates
--   BsDatesDiff: Difference between two BS dates
--   BsAddDays: Add days to given BS date
--   GetBsFullDate: Get full BS date
--   GetAdFullDate: Get full AD date
--   GetAdFullDay: Get Full AD day
+-   Get2DigitNo
+-   ParseDate
+-   ConvertToDateObject
+-   ConvertToDateFormat
+-   AD2BS
+-   BS2AD
+-   ConvertToUnicode
+-   ConvertToNumber
+-   NumberToWords
+-   NumberToWordsUnicode
+-   AD.GetCurrentDate
+-   AD.GetCurrentYear
+-   AD.GetCurrentMonth
+-   AD.GetCurrentDay
+-   AD.GetMonths
+-   AD.GetMonth
+-   AD.GetDays
+-   AD.GetDay
+-   AD.GetDaysShort
+-   AD.GetDayShort
+-   AD.GetDaysInMonth
+-   AD.DatesDiff
+-   AD.AddDays
+-   AD.GetFullDate
+-   AD.GetFullDay
+-   BS.ValidateDate
+-   BS.IsBetweenDates
+-   BS.GetCurrentDate
+-   BS.GetCurrentYear
+-   BS.GetCurrentMonth
+-   BS.GetCurrentDay
+-   BS.GetMonths
+-   BS.GetMonth
+-   BS.GetMonthsInUnicode
+-   BS.GetMonthInUnicode
+-   BS.GetFullDate
+-   BS.GetDaysUnicode
+-   BS.GetDayUnicode
+-   BS.GetDaysUnicodeShort
+-   BS.GetDayUnicodeShort
+-   BS.GetFullDay
+-   BS.GetFullDayInUnicode
+-   BS.GetDaysInMonth
+-   BS.DatesDiff
+-   BS.AddDays
+-   BS.IsEqualTo
+-   BS.IsGreaterThan
+-   BS.IsLessThan
+-   BS.IsGreaterThanOrEqualTo
+-   BS.IsLessThanOrEqualTo
 
 ## Example
 
 ```
-<script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/js/nepali.datepicker.v4.0.4.min.js" type="text/javascript"></script>
+<script src="https://nepalidatepicker.sajanmaharjan.com.np/nepali.datepicker/js/nepali.datepicker.v4.0.6.min.js" type="text/javascript"></script>
 <script type="text/javascript">
     console.log(NepaliFunctions.GetCurrentBsDate());
 </script>
