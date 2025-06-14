@@ -1,11 +1,9 @@
 {
   "name": "@sajanm/nepali-date-picker",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Nepali Date Picker UI",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm test"
-  },
+  "main": "",
+  "scripts": {},
   "author": "Sajan Maharjan",
   "license": "MIT",
   "repository": "sajanm/nepali-date-picker",

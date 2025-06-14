@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <title>Nepali Datepicker</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <!-- Nepali Datepicker CSS -->
+    <link
+      href="nepali.datepicker.v5.0.2.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Nepali Datepicker Script -->
+    <script
+      src="nepali.datepicker.v5.0.2.min.js"
+      type="text/javascript"
+    ></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+
+      label {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      input[type="text"] {
+        width: 200px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      input[type="text"]:focus {
+        border-color: #66afe9;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Nepali Datepicker Examples</h1>
+      <p>
+        Simple examples of how to use the Nepali Datepicker in a web
+        application.
+      </p>
+      <label for="nepali-datepicker">Default:</label>
+      <input type="text" id="nepali-datepicker" placeholder="Select Date" />
+
+      <br />
+      <label for="nepali-datepicker-with-options">Dark Mode:</label>
+      <input
+        type="text"
+        id="nepali-datepicker-dark-mode"
+        placeholder="Select Date"
+      />
+
+      <br />
+      <label for="nepali-datepicker-with-mini-english-dates">
+        Mini English Dates:
+      </label>
+      <input
+        type="text"
+        id="nepali-datepicker-with-mini-english-dates"
+        placeholder="Select Date"
+      />
+
+      <br />
+      <label for="nepali-datepicker-with-range">Range:</label>
+      <input
+        type="text"
+        id="nepali-datepicker-with-range"
+        placeholder="Select Date Range"
+      />
+
+      <br />
+      <label for="nepali-datepicker-with-multiple">Multiple:</label>
+      <input
+        type="text"
+        id="nepali-datepicker-with-multiple"
+        placeholder="Select Multiple"
+      />
+    </div>
+    <script type="text/javascript">
+      window.onload = function () {
+        var mainInput = document.getElementById("nepali-datepicker");
+        mainInput.NepaliDatePicker();
+
+        var darkModeInput = document.getElementById(
+          "nepali-datepicker-dark-mode"
+        );
+        darkModeInput.NepaliDatePicker({
+          mode: "dark",
+        });
+
+        var miniEnglishDatesInput = document.getElementById(
+          "nepali-datepicker-with-mini-english-dates"
+        );
+        miniEnglishDatesInput.NepaliDatePicker({
+          miniEnglishDates: true,
+        });
+
+        var rangeInput = document.getElementById(
+          "nepali-datepicker-with-range"
+        );
+        rangeInput.NepaliDatePicker({
+          range: true,
+        });
+
+        var multipleInput = document.getElementById(
+          "nepali-datepicker-with-multiple"
+        );
+        multipleInput.NepaliDatePicker({
+          multiple: true,
+        });
+      };
+    </script>
+  </body>
+</html>
